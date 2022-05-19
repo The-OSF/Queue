@@ -1,0 +1,146 @@
+    .logo {
+        position: relative;
+        left: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        font-weight: 700;
+    }
+    
+    .menu-container {
+        display: flex;
+        flex-direction: row;
+        text-transform: uppercase;
+        float: right;
+        position: relative;
+        top: -50px;
+        left: -70px;
+    }
+    
+    .container-item1 {
+        color: blue;
+        font-size: 15px;
+        position: relative;
+        top: 20px;
+    }
+    
+    .container-item {
+        padding: 20px;
+        text-align: right;
+        font-size: 15px;
+    }
+    
+    .hst-container {
+        display: flex;
+        flex-direction: row;
+        background-color: rgb(238, 243, 247);
+        border-style: solid;
+        border-width: 3px;
+        border-radius: 55px;
+        border-color: rgb(238, 243, 247);
+        width: 20%;
+        height: 10%;
+        position: relative;
+        top: 130px;
+        left: 20px;
+    }
+    
+    .hst-containeritem1 {
+        background-color: blue;
+        border-radius: 15px;
+        border-width: 50px;
+        padding: 10px;
+        height: 7px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+        top: 10px;
+        left: 10px;
+        color: white;
+    }
+    
+    p {
+        padding-left: 20px;
+        font-weight: 15px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: bold;
+    }
+    
+    .Heading {
+        position: relative;
+        top: 120px;
+        left: 30px;
+        font-size: 50px;
+    }
+    
+    .subheading {
+        position: relative;
+        top: 120px;
+        left: 15px;
+        font-size: 12px;
+        font-weight: lighter;
+        color: gray;
+    }
+    
+    #button {
+        background-color: blue;
+        width: 100px;
+        height: 20px;
+        position: relative;
+        top: 130px;
+        left: 40px;
+        border-style: solid;
+        border-radius: 5px;
+        border-color: blue;
+        color: white;
+        text-align: center;
+    }
+    
+    body {
+        background-image: url('Queue.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .download {
+        border-color: blue;
+        position: relative;
+        top: 100px;
+        left: 180px;
+        width: 160px;
+        height: 28px;
+        border-radius: 7px;
+        color: blue;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .fa-facebook {
+        float: right;
+        position: relative;
+        top: -30px;
+        left: -80px;
+    }
+    
+    .fa-twitter {
+        float: right;
+        position: relative;
+        top: -30px;
+        left: -50px;
+    }
+    
+    .fa-instagram {
+        float: right;
+        position: relative;
+        top: -30px;
+        left: -15px;
+    }
+    
+    .fa {
+        text-decoration: none;
+        border-radius: 50%;
+        color: blue;
+    }
